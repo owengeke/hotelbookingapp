@@ -9,6 +9,7 @@ import { WeddingsComponent } from './weddings/weddings.component';
 import { AccomodationComponent } from './accomodation/accomodation.component';
 import { SignUpComponent } from './auth/sign-up/sign-up.component';
 import { SignInComponent } from './auth/sign-in/sign-in.component';
+import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
@@ -20,7 +21,8 @@ const routes: Routes = [
   { path: 'offers', component: OffersComponent },
   { path: 'weddings', component: WeddingsComponent },
   { path: 'sign-up', component: SignUpComponent },
-  { path: 'sign-ip', component: SignInComponent }
+  { path: 'sign-in', component: SignInComponent },
+  { path: '', component: HomeComponent }
 ];
 
 @NgModule({
